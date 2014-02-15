@@ -18,7 +18,7 @@
   
     
     Class.forName("com.mysql.jdbc.Driver");
-    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/db?useUnicode=true&characterEncoding=UTF-8","root", "%za9261");
+    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/db?useUnicode=true&characterEncoding=UTF-8","root", "******");
     Statement st = con.createStatement();
     //ResultSet rs;
     int i = st.executeUpdate("insert into s_posts( username, s_post ) values ('" + username + "','" + s_post + "')");
