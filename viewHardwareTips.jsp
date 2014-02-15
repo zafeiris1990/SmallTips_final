@@ -14,7 +14,7 @@
     String h_post = request.getParameter("h_post");
    
     Class.forName("com.mysql.jdbc.Driver");
-    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/db?useUnicode=true&characterEncoding=UTF-8","root","%za9261");
+    Connection con = DriverManager.getConnection("jdbc:mysql://localhost:3306/db?useUnicode=true&characterEncoding=UTF-8","root","******");
     Statement st = con.createStatement();
     //ResultSet rs;
     
